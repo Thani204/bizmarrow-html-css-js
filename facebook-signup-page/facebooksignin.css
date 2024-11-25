@@ -1,0 +1,173 @@
+body{
+    z-index: 90;
+    background-color: rgb(238, 236, 236);
+}
+.container{
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 7px;
+    width: 285px;
+    height: 370px;
+    z-index: 100; 
+    background-color: white;
+
+}
+
+.facebook-create{
+    margin-left: 220px;
+    z-index: 100;
+ 
+}
+
+.name-face-container{
+    font-size: monospace;
+    text-align: center;
+    display: flex;
+    
+}
+
+.input-face-container{
+    width: 120px;
+}
+
+
+h1{
+    color: blue;
+    margin-left: 85px;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.create-face-container{
+    font-family: Arial;
+    text-align: center;
+    padding-top: 0;
+    line-height: 2px;
+}
+
+.create-paragraph{
+    font-size: x-small;
+    color: grey;
+}
+
+input{
+    margin-left: 10px;
+    padding: 3px;
+    border-radius: 2px;  
+    border: 1px solid rgb(185, 185, 185);
+    width: 260px;
+    font-size: 8px;
+    height: 15px;
+
+}
+
+.datefiled-face-container{
+    margin-top: 7px;
+}
+
+.date-face-conntainer{
+    display: flex;
+}
+
+.input-date-container{
+    width: 75px;
+    height: 15px;
+}
+
+.gender-container{
+    margin-top: 7px;
+    display: flex;
+}
+
+.gender-female-container{
+    display: flex;
+    border: 1px solid black;
+    height: 20px;
+    width: 80px;
+    border-radius: 2px;
+    border-color: rgb(206, 202, 202);
+    margin-left: 10px;
+    justify-content: space-between;
+    color: gray;
+    
+    
+}
+
+.gender-male-container{
+    display: flex;
+    border: 1px solid black;
+    height: 20px;
+    width: 80px;
+    border-radius: 2px;
+    border-color: rgb(206, 202, 202);
+    margin-left: 10px;
+    justify-content: space-between;
+    color: rgb(233, 233, 233);
+}
+
+.gender-custom-container{
+    display: flex;
+    border: 1px solid black;
+    height: 20px;
+    width: 80px;
+    border-radius: 2px;
+    border-color: rgb(206, 202, 202);
+    margin-left: 10px;
+    justify-content: space-between;
+    color: rgb(235, 235, 235);
+    
+}
+
+.radio-container{
+    width: 10px;
+}
+
+label{
+    font-family: Arial;
+    font-size: x-small;
+    color: grey;
+    
+
+}
+
+.service-container{
+    font-family: Arial;
+    font-size: 7px;
+    color: grey;
+    padding-left: 10px;
+    
+}
+
+.label-container{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 8px;
+}
+
+.label-row{
+    padding-left: 10px; 
+    font-size: 8px;
+    
+}
+
+button{
+    color: white;
+    background-color: green;
+    width: 130px;
+    height: 20px;
+    border: 1px solid grey;
+    margin-left: 90px;
+    border-radius: 3px;
+    font-size: 10px;
+   
+}
+
+.links{
+    text-decoration: none;
+    color: blue;
+    margin-left: 90px;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}

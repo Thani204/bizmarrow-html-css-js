@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+
+.sub-container{
+    border: 1px solid grey;
+    width: 400px;
+    height: 400px;
+}
